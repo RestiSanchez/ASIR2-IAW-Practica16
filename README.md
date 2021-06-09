@@ -4,12 +4,12 @@ Para esta práctica tendremos que crear un archivo Dockerfile en la cual crearem
 
 ## Dockerfile
 
-- Utilizaremos de imagen la versión de **ubuntu** que está etiquetada como **focal** - **FROM**
-- Añadimos una etiqueta (OPCIONAL) - **LABEL**
-- Añadimos la variable de entorno - **ENV**
-- Ejecutaremos los comandos necesarios para la LAMP. Esta se dividirá en dos, una para instalación y otra para configuración. - **RUN**
-- Añadimos el puerto (OPCIONAL) - **EXPOSE**
-- Finalmente proporcionamos los valores para la ejecución de esta. - **CMD**
+- Utilizaremos de imagen la versión de **ubuntu** que está etiquetada como **focal** con el comando **FROM**
+- Añadimos una etiqueta utilizando **LABEL**
+- Añadimos la variable de entorno con **ENV**
+- Ejecutaremos los comandos necesarios para la LAMP con **RUN** , la primera vez es para instalación y la segunda de configuración
+- Añadimos el puerto utilizando **EXPOSE**
+- Y ejecutamos el apache en primer plano con **CMD**
 
 Mi dockerfile quedaría asi: 
 
